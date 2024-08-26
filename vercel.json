@@ -11,6 +11,10 @@
       {
         "source": "/images/(.*)",
         "destination": "/static/images/$1"
+      },
+      {
+        "source": "/fonts/(.*)",
+        "destination": "/static/fonts/$1"
       }
     ]
   }
